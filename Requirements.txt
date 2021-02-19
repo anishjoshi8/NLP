@@ -1,0 +1,7 @@
+import nltk
+nltk.download('all')
+pip install https://github.com/LexPredict/lexpredict-lexnlp/archive/master.zip
+pip install spacy
+import spacy
+spacy.prefer_gpu()
+nlp = spacy.load("en_core_web_sm")
